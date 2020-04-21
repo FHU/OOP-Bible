@@ -39,7 +39,7 @@ TestamentType (enum)
 
 if __name__ == "__main__":
     
-    kjv = Bible("data/kjv.txt")
+    kjv = Bible("data/kjv.txt", "|")
 
     # book
     gen = kjv.books[0]

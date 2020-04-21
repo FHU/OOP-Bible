@@ -18,7 +18,7 @@ class Bible:
         '''
         self.translation = ""
 
-        self.books = self.parse_from_file(file)
+        self.books = self.parse_from_file(file, separator)
 
     # TODO
     def parse_from_file(self, file, separator):
@@ -37,6 +37,11 @@ class Bible:
             A list of book objects (populated with chapters populated
             with verses) as listed in the file. 
         '''
+
+        with open(file) as f:
+            lines = f.readlines()
+
+        print(lines)
 
         return []
 
