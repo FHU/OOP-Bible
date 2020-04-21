@@ -1,11 +1,7 @@
 class Bible:
 
-    def __init__(self):
-        self.books = []
-        self.translation = ""
-
     # TODO
-    def __init__(self, file, separator):
+    def __init__(self, file, separator="|"):
         '''
         Initialize Bible from a text file containing 1 verse per line.
 
@@ -37,11 +33,6 @@ class Bible:
             A list of book objects (populated with chapters populated
             with verses) as listed in the file. 
         '''
-
-        with open(file) as f:
-            lines = f.readlines()
-
-        print(lines)
 
         return []
 

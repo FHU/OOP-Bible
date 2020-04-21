@@ -21,18 +21,18 @@ Verse
 * text (string)
 
 BookType (enum)
-* Law = 1
-* History = 2 
-* Wisdom = 3
-* Prophecy = 4
-* Gospel = 5
-* Epistle = 6
-* Apocalypse = 7
+* LAW = 1
+* HISTORY = 2 
+* WISDOM = 3
+* PROPHECY = 4
+* GOSPEL = 5
+* EPISTLE = 6
+* APOCALYPSE = 7 
 
 TestamentType (enum)
-* OldTestament
-* NewTestament
-* None
+* OLD_TESTAMENT
+* NEW_TESTAMENT
+* NONE
 
 '''
 
