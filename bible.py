@@ -40,7 +40,7 @@ class Bible:
     def search(self, search_string):
         ''' 
         Returns an unduplicated list of Reference objects 
-        that contain the search_string.
+        that contain the search_string (case insensitive).
 
         Parameters:
             search_string (str): the string to search for 
@@ -49,7 +49,7 @@ class Bible:
 
         Returns:
             A list of unique (non-duplicated) Reference objects
-            with verses that contain the search string. 
+            with verses that contain the search string.  
         '''
         pass
 
